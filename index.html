@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConnectX BD - Trusted Technicians</title>
+  <meta name="description" content="ConnectX BD offers professional installation, repair, and technician services in Dhaka City.">
+  <meta name="keywords" content="ConnectX BD, Installation, Repair, AC Service, Gas Line, Electrician, Dhaka Technicians">
+
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container d-flex justify-content-between align-items-center">
+    <img src="images/connectX BD logo.png" class="logo" alt="ConnectX BD Logo">
+    <nav class="navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Installation</a>
+      <a href="#repair">Repair</a>
+      <a href="#counters">Counters</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="limited-hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="hero-text">
+    <h1>Welcome to ConnectX BD</h1>
+    <p>Trusted Technicians at Your Service</p>
+  </div>
+</section>
+
+<!-- INSTALLATION SECTION -->
+<section id="services" class="installation-section" data-aos="fade-up">
+  <h2 class="section-title">Installation Dashboard</h2>
+  <p class="section-subtitle">Select a service to view installation options.</p>
+
+  <div class="services-grid">
+    <div class="service-card" data-service="ac">
+      <i class="fas fa-snowflake service-icon"></i>
+      <h3>AC Installation</h3>
+    </div>
+    <div class="service-card" data-service="electric">
+      <i class="fas fa-bolt service-icon"></i>
+      <h3>Electrical Works</h3>
+    </div>
+    <div class="service-card" data-service="water">
+      <i class="fas fa-faucet service-icon"></i>
+      <h3>Water Accessories</h3>
+    </div>
+    <div class="service-card" data-service="gas">
+      <i class="fas fa-fire service-icon"></i>
+      <h3>Gas Solutions</h3>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+<!-- Panels -->
+<div class="service-panel" data-panel="ac">
+  <div class="panel-content">
+    <h4>AC Installation Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Wall drilling and bracket mounting<br>
+      • Indoor & outdoor unit installation<br>
+      • Pipe fitting (up to 10 feet)<br>
+      • Electrical connection & insulation<br>
+      • Functional testing and performance check<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Service charge:</strong><br>
+      👉 ৳3,500 (Standard Split AC)<br>
+      👉 ৳4,500 (Cassette/Standing Units – optional add-on tier)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="service-panel" data-panel="electric">
+  <div class="panel-content">
+    <h4>Electrical Installation Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Switchboard & socket installation<br>
+      • Ceiling fan/wall fan fitting<br>
+      • Light/fan point wiring & setup<br>
+      • Circuit breaker installation (if required)<br>
+      • Safety testing (short check, voltage check)<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Service charge:</strong><br>
+      👉 ৳2,000 (Up to 5 points)<br>
+      👉 ৳500 per additional point<br>
+      👉 ৳1,200 for main circuit breaker setup (optional)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="service-panel" data-panel="water">
+  <div class="panel-content">
+    <h4>Water Accessories Installation Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Basin, sink, faucet, or shower installation<br>
+      • Water pipe connection & sealing<br>
+      • Water heater (geyser) setup<br>
+      • Leak testing and water flow adjustment<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Service charge:</strong><br>
+      👉 ৳2,000 (Standard fittings – any 2 accessories)<br>
+      👉 ৳3,000 (Geyser installation)<br>
+      👉 ৳500 for each extra accessory beyond 2
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="service-panel" data-panel="gas">
+  <div class="panel-content">
+    <h4>Gas Line Installation Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Pipeline layout planning and setup<br>
+      • Regulator & valve fitting<br>
+      • Safety testing for leakage<br>
+      • Stove/hob connection<br>
+      • Compliance with Titas Gas standards<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Service charge:</strong><br>
+      👉 ৳2,500 (Basic kitchen setup)<br>
+      👉 ৳3,200 (Extended dual-point kitchen setup)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+  
+
+<!-- REPAIR SECTION -->
+<section id="repair" class="repair-section" data-aos="fade-up">
+  <h2 class="section-title">Repair Dashboard</h2>
+  <p class="section-subtitle">Select a service to view repair options.</p>
+
+  <div class="services-grid">
+    <div class="service-card" data-service="ac-repair">
+      <i class="fas fa-wind service-icon"></i>
+      <h3>AC Repair</h3>
+    </div>
+    <div class="service-card" data-service="plumbing-repair">
+      <i class="fas fa-toolbox service-icon"></i>
+      <h3>Plumbing Repair</h3>
+    </div>
+    <div class="service-card" data-service="electrical-repair">
+      <i class="fas fa-plug service-icon"></i>
+      <h3>Electrical Repair</h3>
+    </div>
+    <div class="service-card" data-service="sofa-cleaning">
+      <i class="fas fa-couch service-icon"></i>
+      <h3>Sofa Cleaning</h3>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="repair-overlay"></div>
+
+  <!-- Repair Panels -->
+<!-- Repair Panels -->
+<div class="repair-panel" data-panel="ac-repair">
+  <div class="panel-content">
+    <h4>AC Repair Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • AC not cooling diagnosis<br>
+      • Gas refill (R22/R32/R410)<br>
+      • Compressor & capacitor check<br>
+      • AC remote or sensor repair<br>
+      • Drain pipe cleaning<br>
+      • Minor part replacement<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Fixed Price:</strong><br>
+      👉 ৳700 (General checkup & cleaning)<br>
+      👉 ৳2,000 (Gas refill – R22)<br>
+      👉 ৳2,500 (Gas refill – R32/R410)<br>
+      👉 ৳3,000+ (Major part replacement – Quote after inspection)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="repair-panel" data-panel="plumbing-repair">
+  <div class="panel-content">
+    <h4>Gas Line Repair Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Gas leakage detection and fix<br>
+      • Valve & regulator replacement<br>
+      • Flame adjustment<br>
+      • Stove/hob repair<br>
+      • Emergency shutdown assistance<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Fixed Price:</strong><br>
+      👉 ৳800 (Leak check & minor fixes)<br>
+      👉 ৳1,500 (Regulator/valve replacement)<br>
+      👉 ৳2,000+ (Stove repair or part change – based on issue)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="repair-panel" data-panel="electrical-repair">
+  <div class="panel-content">
+    <h4>Electrical Repair Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Faulty switch/socket repair<br>
+      • Short circuit detection & fix<br>
+      • Light/fan not working issue<br>
+      • Fuse, MCB, or DB box problem<br>
+      • Load imbalance fix<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Fixed Price:</strong><br>
+      👉 ৳600 (Basic repair – 1 point)<br>
+      👉 ৳1,000 (Up to 3 points)<br>
+      👉 ৳1,800 (MCB or DB box repair)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<div class="repair-panel" data-panel="sofa-cleaning">
+  <div class="panel-content">
+    <h4>Water Accessories Repair Services</h4>
+
+    <p style="text-align: left;">
+      <strong>Included Services:</strong><br>
+      • Leaky tap or pipe repair<br>
+      • Shower or basin block fix<br>
+      • Water heater (geyser) malfunction check<br>
+      • Flush or commode leakage repair<br>
+      • Water pressure adjustment<br>
+    </p>
+
+    <div style="margin-top: 15px; text-align: left;">
+      <strong>Fixed Price:</strong><br>
+      👉 ৳600 (Basic fix – 1 point)<br>
+      👉 ৳1,200 (Geyser repair)<br>
+      👉 ৳1,500+ (Heavy repair requiring part replacement)
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="tel:01712345678" class="call-now-button" style="padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; text-decoration: none; font-weight: bold;">Call Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- COUNTERS SECTION -->
+<section id="counters" class="counter-section" data-aos="fade-up">
+  <div class="counter-box">
+    <h2 id="projects">0</h2>
+    <p>Projects Completed</p>
+  </div>
+  <div class="counter-box">
+    <h2 id="clients">0</h2>
+    <p>Happy Clients</p>
+  </div>
+  <div class="counter-box">
+    <h2 id="experience">0</h2>
+    <p>Years Experience</p>
+  </div>
+</section>
+<!-- TESTIMONIALS SECTION -->
+<section id="testimonials" class="testimonial-section" data-aos="fade-up">
+  <h2 class="section-title">Testimonials</h2>
+  <p class="section-subtitle">What our customers say</p>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/women/1.jpg" class="testimonial-img" alt="">
+              <p>"Absolutely mind-blowing service!"</p>
+              <h6>Anna</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/men/2.jpg" class="testimonial-img" alt="">
+              <p>"Fast, reliable and very professional."</p>
+              <h6>Ben</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/women/3.jpg" class="testimonial-img" alt="">
+              <p>"Exceeded every expectation I had!"</p>
+              <h6>Chloe</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/men/4.jpg" class="testimonial-img" alt="">
+              <p>"Exceptional quality and creativity!"</p>
+              <h6>Daniel</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/women/5.jpg" class="testimonial-img" alt="">
+              <p>"Best experience of my life!"</p>
+              <h6>Ella</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/men/6.jpg" class="testimonial-img" alt="">
+              <p>"You simply can't go wrong here."</p>
+              <h6>Finn</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/women/7.jpg" class="testimonial-img" alt="">
+              <p>"Smooth, effortless, amazing results!"</p>
+              <h6>Grace</h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="testimonial animate__animated animate__fadeInUp">
+              <img src="https://randomuser.me/api/portraits/men/8.jpg" class="testimonial-img" alt="">
+              <p>"I recommend it to everyone."</p>
+              <h6>Harry</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+<!-- REVIEWS SECTION -->
+<section id="reviews" class="review-section" data-aos="fade-up">
+  <h2 class="section-title">Customer Reviews</h2>
+  <p class="section-subtitle">Rated 5 Stars by Customers</p>
+
+  <div class="review-cards">
+    <div class="review-card">
+      <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="">
+      <h6>Fatima</h6>
+      <div class="stars">★★★★★</div>
+      <p>Excellent quality and very professional behavior!</p>
+    </div>
+
+    <div class="review-card">
+      <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+      <h6>Omar</h6>
+      <div class="stars">★★★★★</div>
+      <p>Best technicians I have ever worked with!</p>
+    </div>
+
+    <div class="review-card">
+      <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="">
+      <h6>Sara</h6>
+      <div class="stars">★★★★★</div>
+      <p>Timely service and excellent customer care!</p>
+    </div>
+
+    <div class="review-card">
+      <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="">
+      <h6>Ali</h6>
+      <div class="stars">★★★★★</div>
+      <p>Very good service, I highly recommend!</p>
+    </div>
+  </div>
+</section>
+<!-- FOOTER SECTION -->
+<section id="contact" class="footer">
+  <div class="footer-row">
+
+    <div class="footer-col">
+      <h4>Info</h4>
+      <ul class="links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Compressions</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Collection</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul class="links">
+        <li><a href="#">Free Designs</a></li>
+        <li><a href="#">Latest Designs</a></li>
+        <li><a href="#">Themes</a></li>
+        <li><a href="#">Popular Designs</a></li>
+        <li><a href="#">Art Skills</a></li>
+        <li><a href="#">New Uploads</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul class="links">
+        <li><a href="#">Customer Agreement</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">GDPR</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Media Kit</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col newsletter">
+      <h4>Newsletter</h4>
+      <p>Subscribe to our newsletter for news, updates, helpful tips, and exclusive offers.</p>
+      <form action="#">
+        <input type="email" placeholder="Your email" required>
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- FLOATING BUTTONS -->
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/your-number" class="whatsapp-btn" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Inquiry Chat Button -->
+<div id="inquiryBtn" class="inquiry-btn">
+  <i class="fas fa-comment-dots"></i>
+</div>
+
+<!-- Hidden Inquiry Box -->
+<div id="inquiryBox" class="inquiry-box">
+  <div class="inquiry-header">
+    Inquiry Form
+    <span id="closeInquiry" style="cursor:pointer;">&times;</span>
+  </div>
+  <div class="inquiry-body">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea rows="3" placeholder="Your Message"></textarea>
+    <button>Send</button>
+  </div>
+</div>
+
+<!-- Back to Top Button -->
+<a href="#home" class="back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+<!-- JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- Custom Scripts -->
+<script src="script.js"></script>
+
+</body>
+</html>
